@@ -1,0 +1,26 @@
+Project 3: Incident Analysis
+
+Objective:
+Analyze a security incident involving brute force attack and unauthorized access.
+
+Incident Summary:
+Multiple failed login attempts were observed followed by a successful login.
+
+Timeline:
+- Brute Force Attempts: Multiple failed logins detected
+- Successful Login: User "rajvarma" logged in
+- Post Login Activity: Commands executed (whoami, pwd, ls, sudo)
+
+Findings:
+- Attacker IP: 127.0.0.1, ::1
+- Target User: rajvarma
+- Attack Type: Brute Force leading to Unauthorized Access
+
+Analysis:
+Repeated failed login attempts indicate brute force attack.
+Successful login after failures suggests account compromise.
+Post-login commands indicate system exploration.
+
+Conclusion:
+The system experienced a simulated brute force attack leading to unauthorized access.
+This highlights the need for stronger authentication and monitoring.
